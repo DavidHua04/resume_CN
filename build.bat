@@ -1,0 +1,1 @@
+latexmk -C resume-zh_CN.tex && latexmk -xelatex resume-zh_CN.tex

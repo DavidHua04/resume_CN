@@ -21,10 +21,6 @@
 - 完美的中文支持，使用 Adobefonts
 - 支持 FontAwesome 4.3.0 (目前还不支持使用别名)
 
-### 效果输出
-
-![resume-zh_CN.png](./resume.preview.png)
-
 ## 使用方法
 
 1. OverLeaf 在线编译

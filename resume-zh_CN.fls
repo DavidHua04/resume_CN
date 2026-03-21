@@ -107,5 +107,14 @@ INPUT .\resume-zh_CN.aux
 INPUT .\resume-zh_CN.aux
 INPUT resume-zh_CN.aux
 OUTPUT resume-zh_CN.aux
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmmi10.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\personal\Downloads\useful_app\MikTex\fonts\tfm\public\cm\cmr6.tfm
 OUTPUT resume-zh_CN.xdv
 INPUT resume-zh_CN.aux

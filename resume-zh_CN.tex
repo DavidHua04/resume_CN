@@ -22,8 +22,8 @@
 
 % \\section{\faGraduationCap\ 教育背景}
 \section{教育背景}
-\datedsubsection{\textbf{英属哥伦比亚大学},计算机科学,\textit{理学学士}}{2024.8 - Present}
-\ \textbf{绩点4.33 / 4.33 (91.5/100)}, 理学院国际生奖学金,院长学者
+\datedsubsection{\textbf{英属哥伦比亚大学},计算机科学,\textit{理学学士}}{2024.8 - 2028.11}
+\ \textbf{绩点4.33 / 4.33 (91.3/100)}, Charles and Jane Banks奖学金,理学院国际生奖学金,院长学者
 \datedsubsection{\textbf{香港中文大学（深圳）},计算机工程,\textit{工学学士}}{2023.6 - 2024.8}
 \ \textbf{绩点3.7 / 4.0}
 
@@ -31,16 +31,22 @@
 \section{技术能力}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.2ex]
-  \item \textbf{编程语言}: Python (Pandas, Scikit-learn, TensorFlow, PyTorch, NumPy), Java (JavaFX), C, C++, JavaScript/TypeScript, SQL, R
+  \item \textbf{编程语言}: Python, Java, Scala, C, C++, Go, JavaScript/TypeScript, SQL, R
   \item \textbf{测试}: JUnit, unittest, pytest, SuperTest, chai, vitest, Playwright
   \item \textbf{数据库}: MySQL, Oracle, PostgreSQL
-  \item \textbf{Web开发}: RESTful服务, Node.js, Express, React, Tailwind CSS, HTML, CSS, JavaScript/TypeScript
-  \item \textbf{工具}: Docker, Git, Redis, Kubernetes, GitHub, Linux基础环境, CI/CD流水线, Tableau, Postman, LaTeX
-  \item \textbf{UI/UX设计}: 原型设计 (Figma), 访谈/观察/问卷设计, 主题分析, 可用性测试, 启发式评估
-  \item \textbf{机器学习与人工智能}: RAG, 经典机器学习模型 (KNN, 岭回归, 随机森林等), 推荐系统, 时间序列, 模型评估与部署
+  \item \textbf{Web开发}: RESTful服务, Node.js, Express, React, Angular, Less, Tailwind CSS, HTML, CSS, JavaScript/TypeScript
+  \item \textbf{工具}: Docker, Git, GitHub, Linux基础环境, CI/CD流水线, Tableau, Postman
+  \item \textbf{机器学习与人工智能}: RAG, Scikit-learn, TensorFlow, PyTorch, 经典机器学习模型 (KNN, 岭回归, 随机森林等), 推荐系统, 时间序列, 模型评估与部署
+  \item \textbf{GPU与并行计算}: 基础CUDA
 \end{itemize}
 
 \section{技术经历}
+\datedsubsection{\textbf{Visier | 软件工程师实习生}, 温哥华}{2026.9 - 2027.4}
+\begin{itemize}
+  \item 为企业级人事分析产品的交互式仪表盘、数据可视化及定时报告功能贡献后端服务，使用\textbf{Scala}、\textbf{TypeScript}、\textbf{Angular}、\textbf{RxJS}、\textbf{NgRx}与\textbf{Less}。
+  \item 原型开发一项功能，使Visier的AI智能体能够根据自然语言请求生成报告。
+\end{itemize}
+
 \datedsubsection{\textbf{英属哥伦比亚大学 | 本科科研助理}, 温哥华}{2026.1 - 2026.5}
 \begin{itemize}
   \item 通过合并去重四个公开有害词语料库与一个中文攻击性语言数据集，构建包含2,000余条唯一词条的中英双语有害词数据集。
@@ -68,38 +74,37 @@
 
 \section{项目经历}
 \begin{itemize}[parsep=0.2ex]
+  \item \textbf{UBC课程可视化规划工具} (\textit{https://github.com/DavidHua04/UBC-Courses-Visualization})
+  \begin{itemize}
+    \item 使用\textbf{React}、\textbf{Express.js}、\textbf{PostgreSQL}、\textbf{Redis}设计并交付一款全栈UBC选课规划工具。
+    \item 通过访谈与出声思维观察进行迭代用户研究，在编写代码前经多轮迭代将\textbf{Figma}原型打磨至高保真设计。
+    \item 规划完整系统架构并以Markdown撰写详细接口规范，作为AI开发的唯一参考来源。
+    \item 采用\textbf{测试驱动开发}，协调三个并行 \textbf{Claude Code} 智能体，分别从规范生成测试、实现后端接口，以及通过 \textbf{MCP} 从Figma设计搭建前端，并通过自动化（\textbf{Vitest}、\textbf{Playwright}）与手动端到端测试验证输出。
+  \end{itemize}
   \item \textbf{InsightUBC——课程与设施数据探索平台}
   \begin{itemize}
+    \item 构建一款全栈Web应用，使UBC决策支持团队能够交互式地查询、筛选和可视化各院系与建筑的课程及设施数据。
     \item 使用 \textbf{React 18/TypeScript} 与 \textbf{Tailwind CSS} 开发含4个 \textbf{Recharts} 可视化图表的前端，使非技术用户能够探索UBC各院系与建筑的数据规律。
-    \item 实现服务端分页与嵌套数据懒加载，在保持数千条记录完整可浏览性的同时减少初始页面负载。
     \item 协作开发全栈 REST API（\textbf{Node.js/Express + TypeScript}），支持自定义查询DSL，涵盖过滤（AND/OR/NOT）、聚合（GROUP BY、AVG/SUM/COUNT）及异步ZIP数据集摄取，共提供20余个接口。
   \end{itemize}
   \item \textbf{信用卡违约预测} (\textit{https://github.com/DavidHua04/CreditCardDefaultPost.github.io})
   \begin{itemize}
-    \item 在3万条信用卡记录上构建并对比7种分类模型（逻辑回归、随机森林、XGBoost、LightGBM等），预测违约风险；通过 SHAP 分析确认还款延迟为主要预测因子。
-    \item 经5折交叉验证与 RandomizedSearchCV 调优，选出 LightGBM 模型，测试集 ROC-AUC 达 0.78。
-    \item 技术栈：Python (Pandas, NumPy, scikit-learn, LightGBM, XGBoost, SHAP, Matplotlib)
-  \end{itemize}
-  \item \textbf{UBC课程可视化规划工具} (\textit{https://github.com/DavidHua04/UBC-Courses-Visualization})
-  \begin{itemize}
-    \item 通过访谈与出声思维观察进行迭代用户研究，经多轮迭代将 \textbf{Figma} 原型打磨至高保真设计。
-    \item 规划完整系统架构（\textbf{React}、\textbf{Express.js}、\textbf{PostgreSQL}、\textbf{Redis}），并以Markdown撰写详细接口规范，作为开发的唯一参考来源。
-    \item 采用\textbf{测试驱动开发}，协调三个并行 \textbf{Claude Code} 智能体，分别从规范生成测试、实现后端接口，以及通过 \textbf{MCP (Model Context Protocol)} 从Figma设计搭建前端，并通过自动化（\textbf{Vitest}、\textbf{Playwright}）与手动端到端测试验证输出。
-  \end{itemize}
-  \item \textbf{UBC Minecraft玩家参与度分析} (\textit{https://github.com/DavidHua04/Minecraft-Player-Engagement-Analysis})
-  \begin{itemize}
-    \item 利用玩家及会话数据分析 UBC 自建 Minecraft 服务器上的玩家行为，识别贡献数据最多的玩家类型，为后续研究招募提供参考。
-    \item 技术栈：Python (NumPy, Pandas, Matplotlib, Seaborn, SciPy)
+    \item 在3万条记录上训练并对比7种分类模型，预测信用卡违约风险，并通过SHAP分析确认还款延迟为主要预测因子。
+    \item 构建并对比7种分类模型（逻辑回归、随机森林、XGBoost、LightGBM等），基于3万条信用卡记录预测违约风险。
+    \item 基于6个月还款历史工程化特征，并应用SHAP分析确认还款延迟为主要预测因子。
+    \item 以非技术利益相关者为对象，用通俗语言报告模型结果、SHAP特征重要性洞察及数据质量注意事项，并通过\textbf{GitHub Pages}将其部署为静态网站 (\textit{https://davidhua04.github.io/CreditCardDefaultPost.github.io/})。
   \end{itemize}
 \end{itemize}
 
 \section{其他经历}
 \begin{itemize}[parsep=0.2ex]
-  \item \textbf{英属哥伦比亚大学 | 本科助教}, 温哥华 \hfill 2026.1 - 2026.5
+  \item \textbf{英属哥伦比亚大学 | 本科助教}, 温哥华 \hfill 2026.1 - 2026.7
   \begin{itemize}
-    \item 主持每周实验课，与另外两门助教协作讲解复杂编程概念并现场调试代码。
-    \item 通过 Piazza 和答疑时间提供可扩展的技术支持，对常见问题创建可复用解答。
-    \item 与教学团队协调统一评分标准，确保多个实验班次评估结果的一致性。
+    \item 编写Python脚本，自动为50个PrairieLearn测验生成JSON配置，在Canvas向PrairieLearn迁移过程中消除逐题手动修改仓库的工作。
+    \item 通过git/GitHub参与课程PrairieLearn代码仓库维护，编写题目、修复渲染问题、维护课堂参与模块。
+    \item 与另外两名助教共同主持每周实验课，讲解复杂编程概念并在课上协作调试代码。
+    \item 在答疑时间提供可扩展的技术支持，为常见问题创建可复用的解答。
+    \item 与教学团队协调统一评分标准与考核流程，确保多个实验班次评估结果的一致性。
   \end{itemize}
   \item \textbf{香港中文大学（深圳）IEEE学生分会 | 财务}, 深圳 \hfill 2023.8 - 2024.7
   \begin{itemize}
